@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b77f122f451a2394898a24191c26107c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.95881
+      value: -0.70484
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b77f122f451a2394898a24191c26107c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b77f122f451a2394898a24191c26107c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.62729
+      value: 11.88989
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b77f122f451a2394898a24191c26107c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -87,7 +87,7 @@ AudioSource:
   m_GameObject: {fileID: 7264073895698587877}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -4916816054819778402, guid: e23b4f056e26d9643bd3d25f00385fb9, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -216,10 +216,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.1531553
+  m_Radius: 1.2359896
   m_Height: 2.6230326
   m_Direction: 1
-  m_Center: {x: -0.013934612, y: 0.8115163, z: 0}
+  m_Center: {x: 0.025362372, y: 0.8115163, z: 0.04353714}
 --- !u!114 &3724146472680264547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: 27431545155861747aeeb16b41f68095, type: 2}
   hurtClip: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
   deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
-  attackDistance: 3
+  attackDistance: 6
   attackInterval: 1
   spawnInterval: 5
   sinkSpeed: 0.5

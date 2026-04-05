@@ -15,6 +15,6 @@ MonoBehaviour:
   maxHp: 200
   damage: 30
   speed: 1
-  attackDistance: 1
+  attackDistance: 6
   spawnInterval: 5
   score: 50

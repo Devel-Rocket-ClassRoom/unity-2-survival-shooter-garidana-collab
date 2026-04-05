@@ -1,11 +1,16 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     public CanvasGroup gameOverUI;
+    public PauseMenu pauseMenu;
+
     private int score = 0;
     public bool IsGameOver {get; private set;}
 
@@ -13,6 +18,14 @@ public class GameManager : MonoBehaviour
     {
         scoreText.text = $"Score :{score}";
         gameOverUI.gameObject.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenu.TogglePause();
+        }
     }
 
     public void AddScore (int AddScore)
