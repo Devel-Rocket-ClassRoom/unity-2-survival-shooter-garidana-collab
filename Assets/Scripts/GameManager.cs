@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     public CanvasGroup gameOverUI;
-    public int score = 9;
+    private int score = 0;
     public bool IsGameOver {get; private set;}
 
     void Start()
